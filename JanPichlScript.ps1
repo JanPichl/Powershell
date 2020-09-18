@@ -15,7 +15,7 @@ Tento script vyhledá v zadaném adresáři všechny soubory s požadovanou př�
 
 .DESCRIPTION
     Aby script pracoval je potřeba zadat parametr
-    -folderPath "Cesta k adresáři ve kterém bude provedena záměna "
+    -folderPath cesta k adresáři ve kterém bude provedena záměna
 
 .EXAMPLE
     JanPichlScript.ps1 c:\1a -removeByte '26' -fileType '.txt','*.cpp','.php' -backupExtension 'bck' -recursive $true 
